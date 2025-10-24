@@ -1,0 +1,74 @@
+{ "frames": {
+   "Imprimante3DBase 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+    "sourceSize": { "w": 1920, "h": 1080 },
+    "duration": 100
+   },
+   "Imprimante3DBase 1.aseprite": {
+    "frame": { "x": 1920, "y": 0, "w": 1920, "h": 1080 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+    "sourceSize": { "w": 1920, "h": 1080 },
+    "duration": 100
+   },
+   "Imprimante3DBase 2.aseprite": {
+    "frame": { "x": 3840, "y": 0, "w": 1920, "h": 1080 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+    "sourceSize": { "w": 1920, "h": 1080 },
+    "duration": 100
+   },
+   "Imprimante3DBase 3.aseprite": {
+    "frame": { "x": 0, "y": 1080, "w": 1920, "h": 1080 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+    "sourceSize": { "w": 1920, "h": 1080 },
+    "duration": 100
+   },
+   "Imprimante3DBase 4.aseprite": {
+    "frame": { "x": 1920, "y": 1080, "w": 1920, "h": 1080 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+    "sourceSize": { "w": 1920, "h": 1080 },
+    "duration": 100
+   },
+   "Imprimante3DBase 5.aseprite": {
+    "frame": { "x": 3840, "y": 1080, "w": 1920, "h": 1080 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+    "sourceSize": { "w": 1920, "h": 1080 },
+    "duration": 100
+   },
+   "Imprimante3DBase 6.aseprite": {
+    "frame": { "x": 0, "y": 2160, "w": 1920, "h": 1080 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+    "sourceSize": { "w": 1920, "h": 1080 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "Imprimante3DBase.png",
+  "format": "RGBA8888",
+  "size": { "w": 5760, "h": 3240 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Flattened", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

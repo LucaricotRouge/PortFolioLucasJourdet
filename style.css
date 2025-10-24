@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Hack', monospace;
+  background-color: #ffffff;
+}
+
+
+header  {
+    border: 5px solid black; 
+    height: 150px;
+}
+
+
+.TexteDeBienvenu{
+    border: 5px solid black; 
+    margin: 20px;
+    height: 100px;
+    background-color: dimgray;
+}
+
+.BoiteAnimation {
+  width: 60vw;   
+  height: 60vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  image-rendering: pixelated;
+  background: transparent;
+  
+}
