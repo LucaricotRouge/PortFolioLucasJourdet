@@ -1,0 +1,338 @@
+{ "frames": {
+   "Contact 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 1.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 2.aseprite": {
+    "frame": { "x": 726, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 3.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 4.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 5.aseprite": {
+    "frame": { "x": 0, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 6.aseprite": {
+    "frame": { "x": 363, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 7.aseprite": {
+    "frame": { "x": 0, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 8.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 9.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 10.aseprite": {
+    "frame": { "x": 726, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 11.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 12.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 13.aseprite": {
+    "frame": { "x": 0, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 14.aseprite": {
+    "frame": { "x": 0, "y": 600, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 15.aseprite": {
+    "frame": { "x": 363, "y": 600, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 16.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 17.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 18.aseprite": {
+    "frame": { "x": 726, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 19.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 20.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 21.aseprite": {
+    "frame": { "x": 0, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 22.aseprite": {
+    "frame": { "x": 363, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 23.aseprite": {
+    "frame": { "x": 0, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 24.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 25.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 26.aseprite": {
+    "frame": { "x": 726, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 27.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 28.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 29.aseprite": {
+    "frame": { "x": 726, "y": 600, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 30.aseprite": {
+    "frame": { "x": 363, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 31.aseprite": {
+    "frame": { "x": 0, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 32.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 33.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 34.aseprite": {
+    "frame": { "x": 726, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 35.aseprite": {
+    "frame": { "x": 363, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 36.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 37.aseprite": {
+    "frame": { "x": 0, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 38.aseprite": {
+    "frame": { "x": 363, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   },
+   "Contact 39.aseprite": {
+    "frame": { "x": 0, "y": 300, "w": 363, "h": 300 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 300 },
+    "sourceSize": { "w": 363, "h": 300 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "Contact.png",
+  "format": "RGBA8888",
+  "size": { "w": 1089, "h": 900 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

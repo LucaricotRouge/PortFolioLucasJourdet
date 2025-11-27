@@ -1,0 +1,146 @@
+{ "frames": {
+   "KeyAccessAnimation 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 1.aseprite": {
+    "frame": { "x": 176, "y": 0, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 2.aseprite": {
+    "frame": { "x": 352, "y": 0, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 3.aseprite": {
+    "frame": { "x": 528, "y": 0, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 4.aseprite": {
+    "frame": { "x": 0, "y": 176, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 5.aseprite": {
+    "frame": { "x": 176, "y": 176, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 6.aseprite": {
+    "frame": { "x": 176, "y": 176, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 7.aseprite": {
+    "frame": { "x": 176, "y": 176, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 8.aseprite": {
+    "frame": { "x": 352, "y": 176, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 9.aseprite": {
+    "frame": { "x": 528, "y": 176, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 10.aseprite": {
+    "frame": { "x": 0, "y": 352, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 11.aseprite": {
+    "frame": { "x": 176, "y": 352, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 12.aseprite": {
+    "frame": { "x": 352, "y": 352, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 13.aseprite": {
+    "frame": { "x": 528, "y": 352, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 14.aseprite": {
+    "frame": { "x": 0, "y": 528, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   },
+   "KeyAccessAnimation 15.aseprite": {
+    "frame": { "x": 176, "y": 528, "w": 176, "h": 176 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 176, "h": 176 },
+    "sourceSize": { "w": 176, "h": 176 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "KeyAccessAnimation.png",
+  "format": "RGBA8888",
+  "size": { "w": 704, "h": 704 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

@@ -1,0 +1,234 @@
+{ "frames": {
+   "TVAccessButton 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 1.aseprite": {
+    "frame": { "x": 100, "y": 0, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 2.aseprite": {
+    "frame": { "x": 100, "y": 0, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 3.aseprite": {
+    "frame": { "x": 100, "y": 0, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 4.aseprite": {
+    "frame": { "x": 200, "y": 0, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 5.aseprite": {
+    "frame": { "x": 300, "y": 0, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 6.aseprite": {
+    "frame": { "x": 400, "y": 0, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 7.aseprite": {
+    "frame": { "x": 0, "y": 48, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 8.aseprite": {
+    "frame": { "x": 100, "y": 48, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 9.aseprite": {
+    "frame": { "x": 200, "y": 48, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 10.aseprite": {
+    "frame": { "x": 200, "y": 48, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 11.aseprite": {
+    "frame": { "x": 200, "y": 48, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 12.aseprite": {
+    "frame": { "x": 300, "y": 48, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 13.aseprite": {
+    "frame": { "x": 400, "y": 48, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 14.aseprite": {
+    "frame": { "x": 0, "y": 96, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 15.aseprite": {
+    "frame": { "x": 100, "y": 96, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 16.aseprite": {
+    "frame": { "x": 200, "y": 96, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 17.aseprite": {
+    "frame": { "x": 200, "y": 96, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 18.aseprite": {
+    "frame": { "x": 200, "y": 96, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 19.aseprite": {
+    "frame": { "x": 300, "y": 96, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 20.aseprite": {
+    "frame": { "x": 400, "y": 96, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 21.aseprite": {
+    "frame": { "x": 0, "y": 144, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 22.aseprite": {
+    "frame": { "x": 100, "y": 144, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 23.aseprite": {
+    "frame": { "x": 100, "y": 144, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 24.aseprite": {
+    "frame": { "x": 200, "y": 144, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 25.aseprite": {
+    "frame": { "x": 300, "y": 144, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   },
+   "TVAccessButton 26.aseprite": {
+    "frame": { "x": 400, "y": 144, "w": 100, "h": 48 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 48 },
+    "sourceSize": { "w": 100, "h": 48 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "TVAccessButton.png",
+  "format": "RGBA8888",
+  "size": { "w": 500, "h": 192 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

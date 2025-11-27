@@ -1,0 +1,74 @@
+{ "frames": {
+   "Imprimante3DBase 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 1154, "h": 876 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1154, "h": 876 },
+    "sourceSize": { "w": 1154, "h": 876 },
+    "duration": 100
+   },
+   "Imprimante3DBase 1.aseprite": {
+    "frame": { "x": 1154, "y": 0, "w": 1154, "h": 876 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1154, "h": 876 },
+    "sourceSize": { "w": 1154, "h": 876 },
+    "duration": 100
+   },
+   "Imprimante3DBase 2.aseprite": {
+    "frame": { "x": 2308, "y": 0, "w": 1154, "h": 876 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1154, "h": 876 },
+    "sourceSize": { "w": 1154, "h": 876 },
+    "duration": 100
+   },
+   "Imprimante3DBase 3.aseprite": {
+    "frame": { "x": 0, "y": 876, "w": 1154, "h": 876 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1154, "h": 876 },
+    "sourceSize": { "w": 1154, "h": 876 },
+    "duration": 100
+   },
+   "Imprimante3DBase 4.aseprite": {
+    "frame": { "x": 1154, "y": 876, "w": 1154, "h": 876 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1154, "h": 876 },
+    "sourceSize": { "w": 1154, "h": 876 },
+    "duration": 100
+   },
+   "Imprimante3DBase 5.aseprite": {
+    "frame": { "x": 2308, "y": 876, "w": 1154, "h": 876 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1154, "h": 876 },
+    "sourceSize": { "w": 1154, "h": 876 },
+    "duration": 100
+   },
+   "Imprimante3DBase 6.aseprite": {
+    "frame": { "x": 0, "y": 1752, "w": 1154, "h": 876 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1154, "h": 876 },
+    "sourceSize": { "w": 1154, "h": 876 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "Imprimante3DBase.png",
+  "format": "RGBA8888",
+  "size": { "w": 3462, "h": 2628 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Flattened", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

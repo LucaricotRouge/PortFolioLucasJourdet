@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Lab</title>
+</head>
+<body>
+    <header class="PagesHeader">
+        <div id="PagesHeader">
+            Welcome to my Lab, a place where creativity meets experimentation. Click on the image to discover more ;]
+        </div>
+    </header>
+
+    <main>
+        <div class="LabCommandeAnimation">
+            <div class="LabAnimationContent">
+                <div class="BoiteAnimation">
+                    <canvas id="labAnimation"></canvas>
+                </div>
+                <div class="LabProjectImageContainer">
+                        <img id="projectImage" src="" alt="Project Image">
+                        <div class="LabProjectIndex"><span id="projectIndexDisplay">1</span>/7</div>
+                </div>
+            </div>
+
+            <div class="LabCommande">
+                <button id="prevBtnLab" class="navButton navLeft"></button>
+                <div class="optionDisplayLab">Elastup</div>
+                <button id="nextBtnLab" class="navButton navRight"></button>
+            </div>
+        </div>
+    </main>
+
+    <div id="loadingScreen" class="loadingScreen">
+        <div class="loadingBar">
+            <div class="loadingFill"></div>
+        </div>
+        <div class="loadingPercent">0%</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.0/pixi.min.js"></script>
+    <script src="lab.js"></script>
+</body>
+</html>

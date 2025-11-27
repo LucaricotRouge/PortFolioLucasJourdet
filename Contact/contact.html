@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Contact</title>
+</head>
+<body>
+    <header class="PagesHeader">
+        <div id="PagesHeader">
+            Welcome to my Contact page, a magical space where you can connect with me :]
+        </div>
+    </header>
+
+    <main>  
+        <div class="contactAnimation">
+            <div class="boiteContactAnimation">
+                <canvas id="contactCanvas"></canvas>
+            </div>
+            <div id="my">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <div class="wordCount"><span id="wordCountValue">0</span>/1000</div>
+                    
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.0/pixi.min.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
+</body>
+</html>

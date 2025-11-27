@@ -13,15 +13,37 @@
 <body>
     <header> 
             <div class="TexteDeBienvenu">
-                Welcome
+                Press the magical button to activate the machine ! It will teleport you.
             </div>
     </header>
     
     <main>
-        <div class="BoiteAnimation">
-            <canvas id="animation"></canvas>
+        <div class ="CommandeAnimation">
+            <div class="Animation">
+                    <div class="BoiteAnimation">
+                    <canvas id="animation"></canvas>
+                </div>
+                <div class="ButtonContainer">
+                    <button id="playPauseBtn" class="playPauseBtn"></button>
+                    <canvas id="animationBtn"></canvas>
+                </div>
+            </div>
+
+            <div class="Commande">
+                <button id="prevBtn" class="navButton navLeft"></button>
+                <div class="optionDisplay">Lab</div>
+                <button id="nextBtn" class="navButton navRight"></button>
+            </div>
+
         </div>
     </main>
+
+    <div id="loadingScreen" class="loadingScreen">
+        <div class="loadingBar">
+            <div class="loadingFill"></div>
+        </div>
+        <div class="loadingPercent">0%</div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.0/pixi.min.js"></script>
     <script src="script.js"></script>
