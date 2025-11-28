@@ -37,7 +37,8 @@
     <script>
         // Charger la page d'accueil quand on revient en arrière
         window.addEventListener('popstate', () => {
-            window.location.href = '../index.html';
+            const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, -2).join('/');
+            window.location.href = baseUrl + '/index.html';
         });        
         history.pushState({ page: 'about' }, '', window.location.href);
     </script>

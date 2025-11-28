@@ -139,8 +139,11 @@ function showAnimation(name) {
         3: 'Contact/contact.html'
       };
 
-      history.pushState({ page: pages[currentOptionIndex] }, '', pages[currentOptionIndex]);
-      window.location.href = pages[currentOptionIndex];
+      // Utiliser l'URL absolue depuis la racine
+      const baseUrl = window.location.origin + window.location.pathname.replace(/index\.html$/, '').replace(/\/$/, '');
+      const fullUrl = baseUrl + '/' + pages[currentOptionIndex];
+      history.pushState({ page: pages[currentOptionIndex] }, '', fullUrl);
+      window.location.href = fullUrl;
     };
   }
 
