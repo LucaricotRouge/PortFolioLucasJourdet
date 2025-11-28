@@ -182,7 +182,7 @@ function displayLabProjectAnimation() {
   appLab.stage.addChild(labProjectAnimMenu);
 
   labProjectAnimMenu.onComplete = () => {
-    // Navigate to project page (you can modify this based on your project URLs)
+    // Navigate to project page with absolute URL
     const projectPages = [
       'elastup.html',
       'fighting-game.html',
@@ -192,7 +192,9 @@ function displayLabProjectAnimation() {
       'airbnb-prediction.html',
       'concorde-modeling.html'
     ];
-    window.location.href = projectPages[currentProjectIndex];
+    const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, -1).join('/');
+    const fullUrl = baseUrl + '/' + projectPages[currentProjectIndex];
+    window.location.href = fullUrl;
   };
 
   labProjectAnimMenu.play();

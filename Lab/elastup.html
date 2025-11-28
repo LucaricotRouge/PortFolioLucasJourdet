@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Elastup - Lab Project</title>
+    <style>
+        .project-container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .project-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .project-header h1 {
+            color: #00ff00;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .project-content {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 5px;
+            color: #fff;
+            line-height: 1.8;
+        }
+        .project-content h2 {
+            color: #00ff00;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .project-content p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body class="project-detail-page">
+    <script>
+        window.addEventListener('popstate', () => {
+            const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, -2).join('/');
+            window.location.href = baseUrl + '/Lab/lab.html';
+        });
+        history.pushState({ page: 'elastup' }, '', window.location.href);
+    </script>
+
+    <header class="PagesHeader">
+        <div id="PagesHeader">Back to Lab</div>
+    </header>
+
+    <div class="project-container">
+        <div class="project-header">
+            <h1>Elastup</h1>
+        </div>
+        
+        <div class="project-content">
+            <h2>Project Overview</h2>
+            <p>Elastup is an innovative project that combines elasticity and computational design principles.</p>
+            
+            <h2>Technologies Used</h2>
+            <p>The project leverages cutting-edge technologies to achieve optimal results in material science and digital fabrication.</p>
+            
+            <h2>Key Features</h2>
+            <ul>
+                <li>Advanced material analysis</li>
+                <li>Real-time computation</li>
+                <li>Scalable architecture</li>
+            </ul>
+            
+            <h2>Results & Impact</h2>
+            <p>This project demonstrates the potential of combining traditional engineering with modern computational approaches.</p>
+        </div>
+    </div>
+</body>
+</html>

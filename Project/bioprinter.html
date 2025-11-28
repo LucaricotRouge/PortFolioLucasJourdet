@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Bioprinter - Project</title>
+    <style>
+        .project-container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .project-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .project-header h1 {
+            color: #00ff00;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .project-content {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 5px;
+            color: #fff;
+            line-height: 1.8;
+        }
+        .project-content h2 {
+            color: #00ff00;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .project-content p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body class="project-detail-page">
+    <script>
+        window.addEventListener('popstate', () => {
+            const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, -2).join('/');
+            window.location.href = baseUrl + '/Project/project.html';
+        });
+        history.pushState({ page: 'bioprinter' }, '', window.location.href);
+    </script>
+
+    <header class="PagesHeader">
+        <div id="PagesHeader">Back to Projects</div>
+    </header>
+
+    <div class="project-container">
+        <div class="project-header">
+            <h1>Turning Traditional Printer Into Bioprinter</h1>
+        </div>
+        
+        <div class="project-content">
+            <h2>Project Overview</h2>
+            <p>Innovative project that converts a traditional printer into a functional bioprinter capable of 3D bioprinting.</p>
+            
+            <h2>Technical Innovation</h2>
+            <p>The project demonstrates creative repurposing of existing technology combined with advanced bioprinting capabilities.</p>
+            
+            <h2>Key Modifications</h2>
+            <ul>
+                <li>Precision motion control adaptation</li>
+                <li>Bioink material handling system</li>
+                <li>Temperature regulation setup</li>
+                <li>Software customization for bioprinting</li>
+            </ul>
+            
+            <h2>Applications</h2>
+            <p>This breakthrough enables affordable bioprinting technology for research institutions and contributes to tissue engineering advancement.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Research Paper - Project</title>
+    <style>
+        .project-container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .project-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .project-header h1 {
+            color: #00ff00;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .project-content {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 5px;
+            color: #fff;
+            line-height: 1.8;
+        }
+        .project-content h2 {
+            color: #00ff00;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .project-content p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body class="project-detail-page">
+    <script>
+        window.addEventListener('popstate', () => {
+            const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, -2).join('/');
+            window.location.href = baseUrl + '/Project/project.html';
+        });
+        history.pushState({ page: 'research-paper' }, '', window.location.href);
+    </script>
+
+    <header class="PagesHeader">
+        <div id="PagesHeader">Back to Projects</div>
+    </header>
+
+    <div class="project-container">
+        <div class="project-header">
+            <h1>Research Paper</h1>
+        </div>
+        
+        <div class="project-content">
+            <h2>Project Overview</h2>
+            <p>Comprehensive research paper exploring innovative topics in biomaterials and digital fabrication technologies.</p>
+            
+            <h2>Research Methodology</h2>
+            <p>The paper presents rigorous scientific methodology combined with practical experimental results and analysis.</p>
+            
+            <h2>Key Findings</h2>
+            <ul>
+                <li>Novel material properties discovered</li>
+                <li>Improved fabrication techniques</li>
+                <li>Performance benchmarks established</li>
+                <li>Future research directions identified</li>
+            </ul>
+            
+            <h2>Contributions</h2>
+            <p>This research contributes significantly to the field of biomaterials and opens new avenues for technological innovation.</p>
+        </div>
+    </div>
+</body>
+</html>

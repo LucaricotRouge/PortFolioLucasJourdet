@@ -280,11 +280,10 @@ function playProjectAccessAnimation() {
   // Quand l'animation est terminée, rediriger
   projectAccessAnim.onComplete = () => {
     console.log("Animation TVProjectAccess terminée, redirection...");
-    // Rediriger vers la page du projet (à adapter selon votre structure)
-    // Pour l'instant, on va vers la page du projet correspondant
+    // Rediriger vers la page du projet avec URL absolue
     const projectName = projects[currentProjectIndex].name;
     
-    // Mapper les noms aux URLs (à adapter)
+    // Mapper les noms aux URLs
     const projectUrls = {
       'Mushroom Oven': 'mushroom-oven.html',
       'Research Paper': 'research-paper.html',
@@ -293,7 +292,9 @@ function playProjectAccessAnimation() {
     
     const url = projectUrls[projectName];
     if (url) {
-      window.location.href = url;
+      const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, -1).join('/');
+      const fullUrl = baseUrl + '/' + url;
+      window.location.href = fullUrl;
     }
   };
 
