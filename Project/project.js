@@ -285,9 +285,9 @@ function playProjectAccessAnimation() {
     
     // Mapper les noms aux URLs
     const projectUrls = {
-      'Mushroom Oven': 'mushroom-oven.html',
-      'Research Paper': 'research-paper.html',
-      'Turning Traditional Printer Into Bioprinter': 'bioprinter.html'
+      'Mushroom Oven': 'MushroomOven/mushroom-oven.html',
+      'Research Paper': 'ResearchPapers/research-paper.html',
+      'Turning Traditional Printer Into Bioprinter': 'Bioprinter/bioprinter.html'
     };
     
     const url = projectUrls[projectName];

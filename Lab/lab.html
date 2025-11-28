@@ -11,9 +11,16 @@
 </head>
 <body>
     <header class="PagesHeader">
-        <div id="PagesHeader">
-            Welcome to my Lab, a place where creativity meets experimentation. Click on the image to discover more ;]
+        <div class="PagesHeaderIntern">
+            <div class="homeButtonContainer">
+                <button class="homeButton" onclick="window.location.href=window.location.origin + window.location.pathname.split('/').slice(0, -2).join('/') + '/index.html'"></button>
+            </div>
+            <div id="PagesHeader">
+                Welcome to my Lab ! Click on the image to discover more ;]
+            </div>
+            <div class="rightButtonContainer"></div>
         </div>
+
     </header>
 
     <main>

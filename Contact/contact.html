@@ -11,8 +11,14 @@
 </head>
 <body>
     <header class="PagesHeader">
-        <div id="PagesHeader">
-            Welcome to my Contact page, a magical space where you can connect with me :]
+        <div class="PagesHeaderIntern">
+            <div class="homeButtonContainer">
+                <button class="homeButton" onclick="window.location.href=window.location.origin + window.location.pathname.split('/').slice(0, -2).join('/') + '/index.html'"></button>
+            </div>
+            <div id="PagesHeader">
+                Welcome to my Contact page, a magical space where you can connect with me :]
+            </div>
+            <div class="rightButtonContainer"></div>
         </div>
     </header>
 

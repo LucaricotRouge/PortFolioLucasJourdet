@@ -169,23 +169,112 @@ main {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  position: relative;
 }
 
-#PagesHeader {
+.PagesHeaderIntern {
+  display: flex;
   width: 100%;
   height: 100%;
   border: 3px solid black; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background-color: dimgray;
+
+}
+
+#PagesHeader {
+  width: 70%;
+  height: 100%;
   color: white;
   font-family: 'Hack';
-  font-size: 1.2em;
+  font-size: 1.15em;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Lab */
+.homeButtonContainer {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rightButtonContainer {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(172, 50, 50);
+  border: 3px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 30px;
+}
+
+.homeButton:hover {
+  background-color: rgb(217, 87, 99);
+}
+
+.homeButton:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 850px) {
+
+  #PagesHeader {
+  font-size: 1em;
+  }
+
+  .TexteDeBienvenu {
+  font-size: 1em;
+}
+
+  .optionDisplay {
+    font-size: 1em;
+  }
+  .homeButtonContainer {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(172, 50, 50);
+  border: 3px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 0px;
+}
+
+}
+
+
+/* Project */
 
 .ProjectImageContainer {
   flex: 0 0 20%;
@@ -355,6 +444,15 @@ main {
 
   .Commande {
     flex: 0 0 auto;
+  }
+  .ProjectCommandeAnimation {
+    gap: 0px;
+  }
+  .ProjectAnimationContent {
+    gap: 0px ;
+  }
+  .ProjectCommande {
+    margin-bottom: 20px;
   }
 }
 
@@ -651,6 +749,10 @@ main {
     align-items: center;
     gap: 20px;
   }
+
+  .LabCommande .optionDisplayLab {
+    font-size: 1em;
+  }
 }
 
 /* Project Page Styles */
@@ -745,7 +847,7 @@ main {
 .ProjectCommande .optionDisplayProject {
   flex: 1;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
   white-space: normal;
   word-wrap: break-word;
@@ -856,13 +958,13 @@ body.about-page .content-container {
   position: fixed;
   top: 50%;
   left: 40px;
-  width: 45%;
-  height: 45%;
+  width: 40%;
+  height: 50%;
   transform: translateY(-50%);
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 8px;
-  padding: 2rem;
+  padding: 1.5rem;
   overflow: hidden;
 }
 
@@ -873,12 +975,12 @@ body.about-page #scrollingText {
   margin-top: 6%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 body.about-page #scrollingText h2 {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   margin-top: 0;
 }
@@ -930,11 +1032,41 @@ body.about-page .cv-button:active {
   transform: scale(0.95);
 }
 
+
+
 @media (max-width: 850px) {
+
+  body.about-page .content-container {
+  position: fixed;
+  top: 50%;
+  left: 30px;
+  width: 55%;
+  height: 45%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 1.5rem;
+  overflow: hidden;
+}
+
 body.about-page #scrollingText {
   gap: 0px;
 }
+body.about-page #scrollingText {
+  gap: 0px;
+  word-break: break-word;
 }
+
+body.about-page #scrollingText p {
+  word-break: break-word;
+}
+
+body.about-page #scrollingText a {
+  word-break: break-word;
+}
+}
+
 
 
 @media (max-width: 1100px) {

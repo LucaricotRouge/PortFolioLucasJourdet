@@ -184,13 +184,13 @@ function displayLabProjectAnimation() {
   labProjectAnimMenu.onComplete = () => {
     // Navigate to project page with absolute URL
     const projectPages = [
-      'elastup.html',
-      'fighting-game.html',
-      'rhythm-game.html',
-      'biohybrid-sensors.html',
-      'mnist-classifier.html',
-      'airbnb-prediction.html',
-      'concorde-modeling.html'
+      'Elastup/elastup.html',
+      'FightingGame/fighting-game.html',
+      'RythmGame/rhythm-game.html',
+      'BiohybridSensors/biohybrid-sensors.html',
+      'MnistClassifier/mnist-classifier.html',
+      'AirbnbPrediction/airbnb-prediction.html',
+      'ConcordeModeling/concorde-modeling.html'
     ];
     const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, -1).join('/');
     const fullUrl = baseUrl + '/' + projectPages[currentProjectIndex];
