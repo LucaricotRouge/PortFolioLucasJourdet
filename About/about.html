@@ -3,13 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css">
     <link rel="stylesheet" href="../style.css">
-
     <title>About</title>
 </head>
-<body>
-    <div>About</div>
+<body class="about-page">
+    <canvas id="aboutCanvas"></canvas>
+    
+    <div class="content-container">
+        <div id="scrollingText">
+            <h1>About Me</h1>
+            <p>I am an M2 student in a dual engineering/management program at Léonard-de-Vinci La Défense University. I am currently studying as a creative technologist, focusing on three areas: innovation, research, and design for projects involving fast prototyping, biomaterials, AI, and bioprinting.</p>
+
+            <h1>Contact</h1>
+            <div id="contactInfo">
+                <p>Email: <a href="mailto:lucas.jourdet@edu.devinci.fr">lucas.jourdet@edu.devinci.fr</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/lucas-jourdet-65487a23b/" target="_blank">My LinkedIn</a></p>
+                <p>GitHub: <a href="https://github.com/LucaricotRouge" target="_blank">My GitHub Profile</a></p>
+            </div>
+            <button id="downloadCVBtn" class="cv-button">Download CV</button>
+        </div>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "./node_modules/three/build/three.module.js",
+            "three/addons/loaders/GLTFLoader.js": "./node_modules/three/examples/jsm/loaders/GLTFLoader.js"
+        }
+    }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script type="module" src="./about.js"></script>
 </body>
 </html>
