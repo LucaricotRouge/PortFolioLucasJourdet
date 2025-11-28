@@ -138,6 +138,8 @@ function showAnimation(name) {
         2: 'About/about.html',
         3: 'Contact/contact.html'
       };
+
+      history.pushState({ page: pages[currentOptionIndex] }, '', pages[currentOptionIndex]);
       window.location.href = pages[currentOptionIndex];
     };
   }

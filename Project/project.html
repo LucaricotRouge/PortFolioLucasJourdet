@@ -45,6 +45,13 @@
         </div>
     </div>
 
+    <script>
+        window.addEventListener('popstate', () => {
+            window.location.reload();
+        });        
+        history.pushState({ page: 'project' }, '', window.location.href);
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.0/pixi.min.js"></script>
     <script src="project.js"></script>
 </body>

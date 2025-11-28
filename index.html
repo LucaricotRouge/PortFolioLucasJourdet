@@ -45,6 +45,13 @@
         <div class="loadingPercent">0%</div>
     </div>
 
+    <script>
+        window.addEventListener('popstate', () => {
+            window.location.reload();
+        });
+        history.pushState({ page: 'home' }, '', window.location.href);
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.0/pixi.min.js"></script>
     <script src="script.js"></script>
 

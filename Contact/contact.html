@@ -39,6 +39,13 @@
         </div>
     </main>
 
+    <script>
+        window.addEventListener('popstate', () => {
+            window.location.reload();
+        });
+        history.pushState({ page: 'contact' }, '', window.location.href);
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.0/pixi.min.js"></script>
     <script src="contact.js"></script>
 </body>
