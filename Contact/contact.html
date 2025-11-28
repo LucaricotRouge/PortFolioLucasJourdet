@@ -40,8 +40,9 @@
     </main>
 
     <script>
+        // Charger la page d'accueil quand on revient en arrière
         window.addEventListener('popstate', () => {
-            window.location.reload();
+            window.location.href = '../index.html';
         });
         history.pushState({ page: 'contact' }, '', window.location.href);
     </script>
