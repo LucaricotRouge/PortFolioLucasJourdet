@@ -45,8 +45,8 @@ const animations = {};
 // Projects data
 const projects = [
   { name: 'Mushroom Oven', animation: 'TVProjectBase' },
-  { name: 'Research Paper', animation: 'TVProjectBase' },
-  { name: 'Turning Traditional Printer Into Bioprinter', animation: 'TVProjectBase' }
+  { name: 'Research Papers', animation: 'TVProjectBase' },
+  { name: 'Cosmyx Bioprinter', animation: 'TVProjectBase' }
 ];
 
 let currentProjectIndex = 0;
@@ -277,17 +277,15 @@ function playProjectAccessAnimation() {
 
   appProject.stage.addChild(projectAccessAnim);
 
-  // Quand l'animation est terminée, rediriger
   projectAccessAnim.onComplete = () => {
     console.log("Animation TVProjectAccess terminée, redirection...");
-    // Rediriger vers la page du projet avec URL absolue
     const projectName = projects[currentProjectIndex].name;
     
     // Mapper les noms aux URLs
     const projectUrls = {
       'Mushroom Oven': 'MushroomOven/mushroom-oven.html',
-      'Research Paper': 'ResearchPapers/research-paper.html',
-      'Turning Traditional Printer Into Bioprinter': 'Bioprinter/bioprinter.html'
+      'Research Papers': 'ResearchPapers/research-paper.html',
+      'Cosmyx Bioprinter': 'Bioprinter/bioprinter.html'
     };
     
     const url = projectUrls[projectName];
@@ -322,7 +320,6 @@ prevBtnProject.addEventListener('click', () => {
   currentProjectIndex = (currentProjectIndex - 1 + projects.length) % projects.length;
   updateProjectDisplay();
   
-  // Réinitialiser le bouton
   const doorButton = document.getElementById('projectDoorButton');
   doorButton.style.backgroundImage = "url('KeyAccess.png')";
   doorButton.style.backgroundColor = 'transparent';
@@ -335,12 +332,10 @@ nextBtnProject.addEventListener('click', () => {
   currentProjectIndex = (currentProjectIndex + 1) % projects.length;
   updateProjectDisplay();
   
-  // Réinitialiser le bouton
   const doorButton = document.getElementById('projectDoorButton');
   doorButton.style.backgroundImage = "url('KeyAccess.png')";
   doorButton.style.backgroundColor = 'transparent';
   buttonAnimating = false;
 });
 
-// Initialize display
 updateProjectDisplay();

@@ -1115,6 +1115,11 @@ body.project-detail-page {
   text-align: center;
 }
 
+.project-content h2 {
+  font-size: 2rem;
+  text-align: start;
+}
+
 .project-content p {
   line-height: 1.6;
   font-size: 1.2rem;
@@ -1124,31 +1129,50 @@ body.project-detail-page {
 
 
 .project-content img {
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
   margin: 40px 0;
   border-radius: 8px;
 }
 
 .project-content video {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   margin: 40px 0;
   border-radius: 8px;
 }
 
+.ElastupVideoDemo {
+  max-width: 80% !important;
+  height: auto;
+  margin: 40px 0;
+  border-radius: 8px;
+}
 
-/* Elastup specific styles */
-
-body.elastup-page a.kickstarter {
+.importantContent {
   color: rgb(172, 50, 50);
   font-weight: bold;
   text-decoration: none;
 }
 
-body.elastup-page .demo-bold {
+.importantLink {
+  color: rgb(172, 50, 50);
   font-weight: bold;
 }
+
+.BiohybridSensorsAbstract{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap : 10%;
+}
+
+@media (max-width: 970px) {
+
+  .BiohybridSensorsAbstract{
+    flex-direction: column;
+  }
 
 @media (max-width: 768px) {
 
@@ -1165,6 +1189,10 @@ body.elastup-page .demo-bold {
   .project-header h1 {
     font-size: 2rem;
     margin-top: 20px;
+  }
+
+  .project-content h2 {
+    font-size: 1.5rem;
   }
 
   .project-content p {

@@ -33,21 +33,73 @@
         
         <div class="project-content">
             <h2>Project Overview</h2>
-            <p>An innovative project combining sustainable materials and smart thermal technology for optimal mushroom cultivation.</p>
+            <p>As part of my innovation project in my first year of my Masters, I decided to do a resilient future project. 
+                My idea was to make a pizza oven entirely out of mycelium composite that could work in a high temperature environment 
+                of around 200°C. The choice of mycelium was made mainly for its advantages of lightness and thermal insulation. 
+                However, as a bio-material, exposure to high temperatures can lead to deformation of its structure and 
+                fire resistance. This is why I have used two protocols that I combined to reinforce the fire resistance and 
+                thermal stability of the mycelium composite in the inner layer of the oven that will be directly exposed to 
+                the heat source. <a href="https://www.nature.com/articles/s41598-022-14806-6" class="importantLink">The first protocol</a> enables fireproof mycelium to be grown directly by integrating 
+                silicon directly into the internal structure of the fungal fibres as they grow. 
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0141391023001714?casa_token=%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20jH15BQBFrYMAAAAA:OSSES2ZWdQqA9ojSkBoWsrm8gg_qf4eNIkrwz21Cn_ULL5Y4Ah5TZdZp2f1bvkyR43Det2koSCXc" class="importantLink">The second protocol</a>
+                uses glass microspheres and a deacetylation process to enhance the thermal stability and 
+                fire resistance of the mycelium. However the desacetylation process was abandoned due to the fact that it reduces 
+                the mechanical properties of the mycelium's composite. Knowing that hollow glass microspheres are also composed by 
+                silicon I actually integrated only this element into the mycelium composite during the growing process.
+                The oven had a spherical shape to allow a homogeneous heat distribution,and the design was inspired by the 
+                HyphaL mycelium enclosure, winner of the 2024 green concept award.</p>
             
-            <h2>Design Features</h2>
-            <p>The mushroom oven integrates temperature control, humidity management, and efficient energy usage.</p>
+            <h2>Building The Oven Support</h2>
+            <p>The oven support was made using steel bars that I <a class="importantContent">welded together</a> : </p>
+            <div class="OvenSupport">
+                <img src="Soudure.jpg" alt="Welding the oven support">
+                <img src="OvenSupport.jpg" alt="Oven support completed">
+            </div>
             
-            <h2>Key Technologies</h2>
-            <ul>
-                <li>Smart temperature regulation</li>
-                <li>Biodegradable materials</li>
-                <li>Energy-efficient heating</li>
-                <li>Automated monitoring system</li>
-            </ul>
-            
-            <h2>Impact</h2>
-            <p>This project supports sustainable agriculture and promotes the cultivation of nutritious food sources.</p>
+            <h2>The Oven's Core</h2>
+
+            <p>Creating a hollow sphere made of mycelium with an internal diameter of 60 cm and a thickness of 10 cm is no 
+                easy task. The only molds available were hemispheres with diameters of 60 cm or 20 cm. The latter was too 
+                small for a full-size oven, so I used the former. To achieve the approximate thickness of 10 cm, I placed 
+                the mycelium composite on top of the half-sphere and measured the thickness at several points on the 
+                half-sphere. The <a class="importantContent">hollow glass microspheres</a> were integrated into the mycelium composite. The mycelium 
+                composite was also composed of <a class="importantContent">wood chip substrates and mycelium spores</a>. Once this substrate was placed on 
+                top of the mold, I covered it with plastic film with holes punched in it to retain moisture and allow the 
+                mycelium to “breathe.” After a few days of growth and drying in the open air, I <a class="importantContent">glued</a> the two hemispheres 
+                together with mycelium composite, which developed and stuck the two hemispheres together to form... a sphere?
+                In fact, the sphere was not as spherical as I would have liked, but this was due to two main reasons: the 
+                lack of a reliable mold for a hollow sphere of this size and the shrinkage of the mycelium during drying. 
+            </p>
+            <div class="DoubleImg">
+                <img src="SemiSphere.png" alt="The two hemispheres glued together">
+            </div>
+
+            <h2>Electronic Part</h2>
+            <p>The electronic part of the oven consists of a heating element, a fan to circulate the hot air inside the oven, 
+                an Solid State Relay to power the heating module and a temperature sensor to monitor the internal temperature 
+                of the oven. All those components were controled with an ESP32 microcontroller and a tiny display was used
+                to show the temperature.
+            </p>
+            <img src="Circut.jpg" alt="Electronic circuit of the mushroom oven">
+            <video autoplay muted loop> <source src="electronicTest.mp4" type="video/mp4"></video>
+
+            <h2>Final Assembly</h2>
+            <p>Once the support, the electronic part and the oven's core were ready, I assembled everything together. 
+                I cut an opening in the mycelium sphere to insert the heating element, the fan and the temperature sensor. 
+                The heating element and the fan where mounted on a mdf support because I lacked of aluminum plate to design the heating module. 
+            </p>
+
+            <video autoplay muted loop> 
+                <source src="MyceliumOven.mp4" type="video/mp4">
+            </video>
+
+            <h2>Test</h2>
+            <p>
+                For safety reasons, I performed my test with a temperature of <a class="importantContent">80°C</a> to heat some nuggets and it worked well !
+            </p>
+            <video autoplay muted loop>
+                <source src="NuggetsInTheOven.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 </body>
