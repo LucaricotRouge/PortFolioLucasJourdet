@@ -33,21 +33,29 @@
         
         <div class="project-content">
             <h2>Project Overview</h2>
-            <p>A competitive multiplayer fighting game featuring fast-paced gameplay and dynamic character mechanics.</p>
-            
-            <h2>Game Features</h2>
-            <p>The game includes advanced physics, character balance, and network synchronization for seamless multiplayer experiences.</p>
-            
-            <h2>Development</h2>
-            <ul>
-                <li>Real-time multiplayer networking</li>
-                <li>Advanced physics engine</li>
-                <li>Character animation system</li>
-                <li>Competitive ranking system</li>
-            </ul>
-            
-            <h2>Gameplay Experience</h2>
-            <p>Players can compete against each other in intense matches with various game modes and customization options.</p>
+            <p>This project was done during a computer science workshop. I had 3 days to learn how to connect and 
+                make synchronized communication between two ESP32s to play a 1v1 fighting game with another local 
+                player. With one of my classmates, we decided to make a game inspired by Street Fighter. </p>
+            <p>We first designed two pixel art characters, each with four different frames of moves : </p>
+            <img src="FightingGameCaractersFrames.png" alt="Frames of pixel art characters for the fighting game">
+            <p>We first tried to display the characters on the 128x64 screen and make them move when pressing a 
+                button. Initially, we wanted to control the characters' movements with a joystick, but we couldn't 
+                display it correctly. So, we decided to focus solely on the attacking mechanics by only using a 
+                button.</p>
+            <video controls muted class="FightingGameVideo">
+                <source src="RyuVsLucasTest.mp4" type="video/mp4">
+            </video>
+            <h2>The Gameplay</h2>
+            <p>
+                Then, we used <span class="importantContent">WebSocket</span> to connect both boards by creating a server on my classmate's board and 
+                connecting my board to it. We successfully created a mini-game with the two boards, where the 
+                objective was to press the button as fast as possible until the opponent lost all their life points 
+                to win. However, we couldn't implement the character animations in the game, which was a bit 
+                disappointing.
+            </p>
+            <video controls muted class="FightingGameVideo">
+                <source src="RyuVsLucasFight.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 </body>

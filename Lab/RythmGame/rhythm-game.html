@@ -33,21 +33,39 @@
         
         <div class="project-content">
             <h2>Project Overview</h2>
-            <p>An engaging rhythm game that combines music and interactive gameplay in a unique experience.</p>
-            
-            <h2>Game Mechanics</h2>
-            <p>Players follow the beat and hit notes in sync with the music, testing their timing and reflexes.</p>
-            
-            <h2>Features</h2>
-            <ul>
-                <li>Multiple music tracks</li>
-                <li>Progressive difficulty levels</li>
-                <li>High score tracking</li>
-                <li>Visual feedback system</li>
-            </ul>
-            
-            <h2>Audio Integration</h2>
-            <p>The game features precise audio synchronization with real-time note detection and scoring.</p>
+                <div class="RythmGameImgAndText">
+                    <p>This project is a rhythm game developed in Python using the <span class ="importantContent">Pygame</span>
+                        library. The game lets players create a character by choosing a male or female character and entering his or her 
+                        name. You can then select one of the characters created in the player section and press 
+                        start to launch the game. During the game, the program allows you to save your score and 
+                        accuracy in an Excel file at the end of each game. Game statistics are graphically 
+                        displayed using <span class ="importantContent">Jupyter Notebook</span>, and the player also has access to a leaderboard in the 
+                        character selection menu to view the current <span class="importantContent">ranking</span> (it resets when the program is closed, 
+                        but is maintained as long as it is open, even if several games are run). For ease of use, 
+                        misses are not counted when pigs leave the screen, but only when the player presses space at 
+                        the wrong time as the pig approaches the character's hitbox. The intuition for a perfect 
+                        score is as follows: press space when the pig's nose is above the character's yellow ball. 
+                        The pause menu appears when you press the <span class="importantContent">“P”</span> key on the keyboard. The player has a total of 
+                        3 lives before beeing turned into a pig by the evil pig curse... 
+                        <a href="https://github.com/LucaricotRouge/JeuDeRythme" class="importantLink">Enjoy the game!</a></p>
+                    <img src="RythmGame.png" alt="Rhythm Game illustration" />
+                </div>
+            <h3 class="importantContent">Rythm Game Tests</h3>
+            <div class="RythmGameDemo">
+                <div class="RythmGameDemo1">
+                    <p>Presentation of the game : </p>
+                    <video controls muted class="RythmGameVideoDemo">
+                        <source src="PresentationJeu.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="RythmGameDemo2">
+                    <p>Quick analysis of the game datas with JupiterNoteBook : </p>
+                    <video controls muted class="RythmGameVideoDemo">
+                        <source src="PresentationResultatJeuDeRythm.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>

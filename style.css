@@ -1249,6 +1249,106 @@ body.project-detail-page {
   flex: 1;
 }
 
+.FightingGameVideo {
+  max-width: 80% !important;
+  height: auto;
+  margin: 40px 0;
+  border-radius: 8px;
+}
+
+.MnistClassifierImgAndText{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap : 10%;
+}
+.MnistClassifierImgAndText img {
+  width: 40% !important;
+  height: auto;
+  border-radius: 8px;
+}
+
+.RythmGameImgAndText{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap : 10%;
+}
+
+.RythmGameImgAndText img {
+  width: 40% !important;
+  height: auto;
+  border-radius: 8px;
+}
+
+.AirbnbPredictionImgAndText1
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap : 10%;
+}
+.AirbnbPredictionImgAndText1 img {
+  width: 70% !important;
+  height: auto;
+  border-radius: 8px;
+}
+
+.AirbnbPredictionImgAndText2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap : 10%;
+}
+.AirbnbPredictionImgAndText2 img
+{
+    width: 40% !important;
+    height: auto;
+    border-radius: 8px;
+}
+
+.AirbnbPredictionImgAndText3
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap : 10%;
+}
+
+.AirbnbPredictionImg3
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+}
+.AirbnbPredictionImg3 img {
+  width: 45% !important;
+  height: auto;
+  border-radius: 8px;
+}
+
+.AirbnbPredictionImgAndText4
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap : 10%;
+}
+.AirbnbPredictionImgAndText4 img {
+  width: 50% !important;
+  height: auto;
+  border-radius: 8px;
+}
+
 @media (max-width: 1400px) {
 .TemperatureSensor1TextImg{
   flex-direction: column;
@@ -1265,6 +1365,29 @@ body.project-detail-page {
 .MutualCapacitanceSensor1Text {
   order: -1;
 
+}
+.RythmGameImgAndText{
+  flex-direction: column;
+}
+
+.RythmGameImgAndText img {
+  width: 80% !important;
+  order: -1;
+}
+.AirbnbPredictionImgAndText3
+{
+  gap : 0%;
+}
+.AirbnbPredictionImg3
+{
+  flex-direction: column;
+  margin-right: 0%;
+}
+
+.AirbnbPredictionImg3 img {
+  width: 80% !important;
+  height: auto;
+  border-radius: 8px;
 }
 }
 
@@ -1289,8 +1412,36 @@ body.project-detail-page {
   height: auto;
   border-radius: 8px;
 }
+
+.AirbnbPredictionImgAndText1
+{
+  flex-direction: column;
+}
+.AirbnbPredictionImgAndText1 img
+{
+  max-width: 80% !important;
+  order: -1;
 }
 
+.AirbnbPredictionImgAndText2
+{
+  flex-direction: column;
+}
+.AirbnbPredictionImgAndText2 img
+{
+    width: 80% !important;
+    height: auto;
+    border-radius: 8px;
+}
+
+.AirbnbPredictionImgAndText4
+{
+  flex-direction: column;
+}
+.AirbnbPredictionImgAndText4 img {
+  width: 80% !important;
+}
+}
 
 @media (max-width: 970px) {
 
@@ -1300,7 +1451,15 @@ body.project-detail-page {
   .StretchSensor1TextImg {
   flex-direction: column;
 }
+.MnistClassifierImgAndText{
+  flex-direction: column;
 }
+.MnistClassifierImgAndText img {
+  width: 80% !important;
+  height: auto;
+  border-radius: 8px;
+}
+} 
 
 @media (max-width: 768px) {
 
