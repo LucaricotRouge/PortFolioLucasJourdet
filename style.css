@@ -1120,6 +1120,12 @@ body.project-detail-page {
   text-align: start;
 }
 
+.project-content h3 {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  text-align: start;
+}
+
 .project-content p {
   line-height: 1.6;
   font-size: 1.2rem;
@@ -1133,6 +1139,12 @@ body.project-detail-page {
   height: auto;
   margin: 40px 0;
   border-radius: 8px;
+}
+
+.QuatreImgCarree {
+  max-width: 60%;
+  height: auto;
+  margin: 40px 0;
 }
 
 .project-content video {
@@ -1160,7 +1172,7 @@ body.project-detail-page {
   font-weight: bold;
 }
 
-.BiohybridSensorsAbstract{
+.BiohybridSensorsImgAndText{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1168,11 +1180,127 @@ body.project-detail-page {
   gap : 10%;
 }
 
+.TemperatureSensor1TextImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.TemperatureSensor1Text {
+  flex: 1;
+}
+
+.StretchSensor1TextImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.StretchSensor1Text {
+  flex: 1;
+}
+
+.StrechSensor2TextImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.StrechSensor2Text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;}
+
+.StretchSensor2img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.StretchSensor2img img {
+  width: 100% !important;
+  height: auto;
+  border-radius: 8px;
+}
+
+.StretchSensorCircuit img {
+  width: 40%; 
+  height: auto;
+  border-radius: 8px;
+}
+
+.MutualCapacitanceSensor1TextImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.MutualCapacitanceSensor1Text {
+  flex: 1;
+}
+
+@media (max-width: 1400px) {
+.TemperatureSensor1TextImg{
+  flex-direction: column;
+}
+
+.TemperatureSensor1Text {
+  order: -1;
+}
+
+.MutualCapacitanceSensor1TextImg {
+  flex-direction: column;
+}
+
+.MutualCapacitanceSensor1Text {
+  order: -1;
+
+}
+}
+
+@media (max-width: 1200px) {
+.StrechSensor2Text {
+  flex-direction: column;
+}
+
+.StretchSensor2img {
+  flex-direction: row;
+  gap: 10%;
+}
+
+.StretchSensor2img img {
+  width: 30% !important;
+  height: auto;
+  border-radius: 8px;
+}
+
+.StretchSensorCircuit img {
+  width: 60%; 
+  height: auto;
+  border-radius: 8px;
+}
+}
+
+
 @media (max-width: 970px) {
 
-  .BiohybridSensorsAbstract{
+  .BiohybridSensorsImgAndText{
     flex-direction: column;
   }
+  .StretchSensor1TextImg {
+  flex-direction: column;
+}
+}
 
 @media (max-width: 768px) {
 
@@ -1181,7 +1309,21 @@ body.project-detail-page {
   color: black;
   font-family: 'Hack', monospace;
   }
+
+  .TemperatureSensor1TextImg {
+    flex-direction: column;
+  }
   
+  .QuatreImgCarree {
+  max-width: 80% !important;
+  }
+
+.StretchSensorCircuit img {
+  width: 70% !important;
+  height: auto;
+  border-radius: 8px;
+}
+
   .project-content {
   padding: 20px;
   }
@@ -1189,10 +1331,16 @@ body.project-detail-page {
   .project-header h1 {
     font-size: 2rem;
     margin-top: 20px;
+    margin-left: 40px;
   }
 
   .project-content h2 {
     font-size: 1.5rem;
+  }
+
+  .project-content h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
   }
 
   .project-content p {
@@ -1203,9 +1351,11 @@ body.project-detail-page {
   body.elastup-page .project-content img {
     max-width: 70%;
   }
+
+  .project-content video {
+  max-width: 100% !important;
+  
 }
 
-
-
-
+}
 

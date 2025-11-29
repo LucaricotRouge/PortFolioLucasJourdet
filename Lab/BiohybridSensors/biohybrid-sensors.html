@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../style.css">
     <title>Biohybrid Sensors - Lab Project</title>
 </head>
-<body class="project-detail-page">
+<body class="project-detail-page biohybrid-page">
     <script>
         window.addEventListener('popstate', () => {
             const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, -2).join('/');
@@ -33,7 +33,7 @@
         
         <div class="project-content">
             <h2>Project Overview</h2>
-            <div class="BiohybridSensorsAbstract">
+            <div class="BiohybridSensorsImgAndText">
                 <p>Based on the work of Nicolae et al."Biohybrid Devices" I replicate the "grow arround method" and "layering" 
                 to embed sensing capabilities in bacterial cellullose. In the course of this project I built a total of 3 
                 different sensors, two of which were resistive (temperature and stretch sensors) and one capacitive 
@@ -42,19 +42,112 @@
                 <img src="BiohybridSensors.png" alt="All the biohybrid sensors created" />
             </div>
             
-            <h2>Research Focus</h2>
-            <p>The project explores the intersection of biotechnology and material science to create innovative sensing solutions.</p>
-            
-            <h2>Key Achievements</h2>
-            <ul>
-                <li>Novel sensor design architecture</li>
-                <li>Biocompatible material selection</li>
-                <li>Real-time data processing</li>
-                <li>Clinical applications potential</li>
-            </ul>
-            
-            <h2>Impact & Applications</h2>
-            <p>This research opens new possibilities in medical diagnostics and environmental monitoring.</p>
+            <h2>Temperature Sensor</h2>
+            <div class="TemperatureSensor1">
+                <div class="TemperatureSensor1TextImg">
+                    <img src="TemperatureSensor.png" alt="Temperature Sensor" class="QuatreImgCarree">
+                    <div class="TemperatureSensor1Text">
+                    <h3 class="importantContent">How to create the temperature sensor :</h3>
+                    <p>To make this sensor I used a <span class="importantContent">layering technique</span> as presented in the paper. A thin copper wire was 
+                        inserted into a scoby cut in half to give the sensor its resistive properties. To dry the bacterial 
+                        cellulose, the scoby/copper wire assembly was placed in the oven for a few hours.</p>
+                    <h3 class="importantContent">Calibration :</h3>
+                    <p>To make the sensor functional I used the simple principle of <span class="importantContent">TCR</span> (temperature coefficient of 
+                        resistance) applied to copper wire and measured its slight variations in resistance due to a change 
+                        in temperature. To do this I combined the temperature sensor with a <span class="importantContent">Wheatstone bridge</span> and an <span class="importantContent">HX711</span>, 
+                        which I will calibrate to better display the temperature in the Arduino's serial monitor. The HX711 
+                        is mainly used to amplify the voltage variation detected at the terminal of the Wheatstone bridge. 
+                        The calibration of the HX711 was done through experimental measurements at controlled temperature. 
+                        To measure and display correct temperatures on the Arduino's serial port, I determined a temperature 
+                        equation as a function of the voltage at the terminal of the Wheatstone bridge, which I then 
+                        implemented in the Arduino code.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="importantContent">Temperature Sensor Tests</h3>
+            <div class="TemperatureSensorDemo">
+                <div class="TemperatureSensorDemo1">
+                    <p>Demonstrations of the use of this sensor on the human body : </p>
+                    <video controls muted class="TemperatureSensorVideoDemo">
+                        <source src="BodyTemperature.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="TemperatureSensorDemo2">
+                    <p>Demonstrations of the use of this sensor on a plate at 100°C : </p>
+                    <video controls muted class="TemperatureSensorVideoDemo">
+                        <source src="Temperature100°C.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <h2>Stretch Sensor</h2>
+            <div class="StretchSensor1">
+                <div class="StretchSensor1TextImg">
+                    <div class="StretchSensor1Text">
+                    <h3 class="importantContent">How to create the stretch sensor :</h3>
+                    <p>To make this sensor I used the <span class="importantContent">grow around method</span> as presented in the paper. A thin 
+                        conductive thread was placed in a mold and the scoby was allowed to grow around it for several days. 
+                        Once the growth was complete, the sensor was removed from the mold and dried in an oven for a few hours.
+                    </p>
+                    </div>
+                    <img src="StretchSensor.png" alt="Stretch Sensor" class="QuatreImgCarree">
+                </div>
+                <div class="StretchSensor2TextImg">
+                    <h3 class="importantContent">Calibration :</h3>
+                    <div class="StrechSensor2Text">
+                        <div class="StretchSensor2img">
+                            <img src="CapteurStretchDeplie.jpg" alt="Stretch Sensor Unfolded Calibration">
+                            <img src="CapteurStretchPlie.jpg" alt="Stretch Sensor Folded Calibration">
+                        </div>
+                        <p>To make the sensor functional I used the principle of <span class="importantContent">piezoresistivity</span>, which consists in measuring 
+                            the variation of resistance of the sensor when it is stretched. To do this I combined the stretch 
+                            sensor with a <span class="importantContent">Wheatstone bridge</span> and an <span class="importantContent">HX711</span>, which I calibrated to better display the 
+                            elongation in the Arduino's serial monitor. The calibration of the HX711 was done through 
+                            experimental measurements at controlled elongations. To measure and display correct elongations on 
+                            the Arduino's serial port, I determined an elongation equation as a function of the voltage at the 
+                            terminal of the Wheatstone bridge, which I then implemented in the Arduino code.
+                        </p>
+                    </div>
+                    <p>Circuit of the stretch sensor setup :</p>
+                    <div class="StretchSensorCircuit">
+                        <img src="StretchSensorCircuit.jpg" alt="Stretch Sensor Setup">
+                    </div>
+                </div>
+                <h3 class="importantContent">Stretch Sensor Test</h3>
+                <p>Demonstrations of the use of the stretch sensor :</p>
+                <video controls muted> 
+                    <source src="StretchSensorDemonstration.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <h2>Mutual Capacitance Sensor</h2>
+            <div class="MutualCapacitanceSensor1">
+                <div class="MutualCapacitanceSensor1TextImg">
+                    <img src="MutualCapacitiveSensor.png" alt="Mutual Capacitance Sensor" class="QuatreImgCarree">
+                    <div class="MutualCapacitanceSensor1Text">
+                        <h3 class="importantContent">How to create the mutual capacitance sensor :</h3>
+                        <p>For this sensor I used an Arduino, a <a href="https://github.com/muca-board/Muca?tab=readme-ov-file" class="importantLink">Muca</a>
+                            sensor and the mutual capacitance matrix. 
+                            To make it, I've used conductive yarn, a layering support and a scoby. The layering 
+                            technique was used to make this sensor. The drying process is the same as for the other 
+                            sensors. The soldering part is a bit tricky and we first had to remove some of the wire's 
+                            protective insulation at the end with a soldering iron, put some extinguishant on it and 
+                            solder it with a bad pin before reinforcing the whole thing with a sheath. As far as the 
+                            Muca board is concerned, I downloaded the Muca library from <a href="https://github.com/muca-board/Muca?tab=readme-ov-file" class="importantLink">GitHub</a>
+                            and used the relevant functions to retrieve the useful data (getTouch() in particular, which provides the touch 
+                            coordinates and weight). To make the visualisation of the touch more intuitive and visible, 
+                            I created a display in Processing by treating the data returned on the Arduino's serial 
+                            port. Unfortunately, the sensor contains a faulty row and column that distort the display 
+                            on these axes (axes in red).</p>
+                    </div>
+                </div>
+                <h3 class="importantContent">Mutual Capacitance Sensor Test</h3>
+                <p>Demonstrations of the use of this sensor on Processing :</p>
+                <video controls muted> 
+                    <source src="MatrixDemonstration.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
     </div>
 </body>
